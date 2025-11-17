@@ -6,11 +6,11 @@
 - In reduce(), the second parameter is the initial value of the accumulator (acc). The value you pass as the second argument becomes the starting value of acc.
 - What if you DON'T give a second parameter?
 
---Then JavaScript will:
+    -Then JavaScript will:
 
---take the first element of the array as the accumulator
+    -take the first element of the array as the accumulator
 
---start the loop from index 1
+    -start the loop from index 1
 
 ```const arr = [5, 3, 8, 1, 2];
 
