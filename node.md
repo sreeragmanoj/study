@@ -1,13 +1,10 @@
 #Interview Question for Node JS
 ------------------------------------------
 
-- Q: Sorting Using reduce
-  A: reduce() goes through an array and builds up a single result (accumulator).
-To "sort" using reduce(), we insert each item into the accumulator at the correct position.
+##Q: Sorting Using reduce
+- A: reduce() goes through an array and builds up a single result (accumulator).To "sort" using reduce(), we insert each item into the accumulator at the correct position.This gives you an insertion sort–style sorting implemented using reduce().
 
-This gives you an insertion sort–style sorting implemented using reduce().
-
-``const arr = [5, 3, 8, 1, 2];
+```const arr = [5, 3, 8, 1, 2];
 
 const sorted = arr.reduce((acc, curr) => {
   // Find position where curr should be inserted
@@ -24,4 +21,4 @@ const sorted = arr.reduce((acc, curr) => {
 }, []);
 
 console.log(sorted); // [1, 2, 3, 5, 8]
-``
+```
